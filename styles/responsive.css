@@ -1,0 +1,22 @@
+/* for mobile device */
+@media screen and (max-width:  900px) {
+    .banner-section{
+        /* border: 3px solid brown; */
+        max-width: 100%; /*means it's max-width is body's max-width*/
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px 10px;
+    }
+
+    .banner-section .section-lft{
+        width: 100%;
+        /* border: 2px solid aqua; */
+        /* flex-basis: 100%; */
+        margin-bottom: 30px;
+    }
+    .banner-section .section-rgt{
+        /* border: 3px solid blue; */
+        width: 100%;
+        /* flex-basis: 100%; */
+    }
+}

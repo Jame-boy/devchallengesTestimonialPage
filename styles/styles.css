@@ -15,27 +15,28 @@
     --card-background: #FFFFFF;
 }
 body{
-    max-width: 1100px;
+    max-width: 1400px;
     /* max-width: 100vw; */
     /* min-height: 445px; */
-    border: 5px solid tomato;
+    /* border: 5px solid tomato; */
 }
 .banner-section{
-    border: 3px solid brown;
-    max-width: 100%; /*means it's max-width is body's max-width 1100px*/
+    /* border: 3px solid brown; */
+    max-width: 100%; /*means it's max-width is body's max-width*/
     display: flex;
-    margin: 50px 20px;
+    /* flex-wrap: wrap; */
+    margin: 95px 50px;
 }
 
 /* section-lft start */
 .section-lft .icon{
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     width: 35px;
     height: 35px;
     border-radius: 50%; 
     background-color: #F5C044;
     position: relative; 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .section-lft .icon > p{
    /* border: 3px solid orange; */
@@ -52,7 +53,7 @@ body{
 /* heading section start */
 .banner-section .section-lft{
     width: 50%;
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     /* flex-basis: 100%; */
 }
 .section-lft .heading-section h1{
@@ -78,8 +79,9 @@ body{
 /* section-right start */
 /* common styles stared */
 .banner-section .section-rgt{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     width: 50%;
+    padding-left: 30px;
     /* flex-basis: 100%; */
 }
 .banner-section .section-rgt .card{
@@ -87,15 +89,15 @@ body{
     width: 60%;
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid red;
+    /* border: 3px solid red; */
 }
 .banner-section .section-rgt *{
     background-color: var(--card-background);
 }
 .section-rgt .card .image-container{
     display: flex;
-    border: 2px solid aqua;
-    gap: 10px;
+    /* border: 2px solid aqua; */
+    gap: 20px;
     flex-wrap: wrap;
 }
 .section-rgt .card .image-container .google-img{
@@ -103,12 +105,13 @@ body{
 }
 .section-rgt .card .image-container .google-img img{
     width: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     vertical-align: middle;
 }
 #star{
-    border: 3px solid rgb(110, 64, 7);
+    /* border: 3px solid rgb(110, 64, 7); */
     display: flex;
+    gap: 5px;
     flex-wrap: wrap;
 }
 .section-rgt p{
