@@ -3,10 +3,9 @@
 *{
     margin: 0px;
     padding: 0px;
-    max-width: 1280px;
     line-height: 30px;
     font-family: 'Sora', sans-serif;
-    background-color: #FAFAFF;
+    background-color: #f2f2f9;
     /* background-color: #52525A; */
 }
 
@@ -15,24 +14,46 @@
     --secondary-color: #52525A;
     --card-background: #FFFFFF;
 }
-
+body{
+    max-width: 1100px;
+    /* max-width: 100vw; */
+    /* min-height: 445px; */
+    border: 5px solid tomato;
+}
 .banner-section{
-    width: 95%;
+    border: 3px solid brown;
+    max-width: 100%; /*means it's max-width is body's max-width 1100px*/
     display: flex;
-    margin: 32px 20px;
+    margin: 50px 20px;
 }
 
 /* section-lft start */
-.section-lft .icon img{
-    background-color: #F5C044; 
-    display: block;
-    background-color: rgba(245, 192, 68, .5);
-    border-radius: 10px;
+.section-lft .icon{
+    border: 2px solid brown;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; 
+    background-color: #F5C044;
+    position: relative; 
+    margin-bottom: 10px;
+}
+.section-lft .icon > p{
+   /* border: 3px solid orange; */
+    /* background-color: rgba(245, 192, 68, .5); */
+    background-color: #F5C044;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    translate: 60% 20%;   
+    position: absolute;   
+      
 }
 
 /* heading section start */
 .banner-section .section-lft{
     width: 50%;
+    border: 2px solid aqua;
+    /* flex-basis: 100%; */
 }
 .section-lft .heading-section h1{
     font-size: 2.25rem;
@@ -42,7 +63,7 @@
 .section-lft .heading-section p{
     font-size: 1.25rem;
     color: var(--secondary-color);
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 /* heading section end */
 /* list-items start */
@@ -56,38 +77,39 @@
 
 /* section-right start */
 /* common styles stared */
-.section-rgt{
-    /* border: 2px solid blue; */
+.banner-section .section-rgt{
+    border: 3px solid blue;
     width: 50%;
+    /* flex-basis: 100%; */
 }
 .banner-section .section-rgt .card{
     /* background-color: var(--card-background); */
-    width: 50%;
-    padding: 25px;
+    width: 60%;
+    padding: 20px;
     border-radius: 10px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 .banner-section .section-rgt *{
     background-color: var(--card-background);
 }
 .section-rgt .card .image-container{
     display: flex;
-    /* border: 2px solid tomato; */
+    border: 2px solid aqua;
     gap: 10px;
-    /* flex-wrap: wrap; */
-    justify-content: center;
+    flex-wrap: wrap;
 }
 .section-rgt .card .image-container .google-img{
-    width: 25%;
+    width: 30%;
 }
 .section-rgt .card .image-container .google-img img{
     width: 100%;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     vertical-align: middle;
 }
 #star{
+    border: 3px solid rgb(110, 64, 7);
     display: flex;
-    width: 50%;
+    flex-wrap: wrap;
 }
 .section-rgt p{
     font-size: 1rem;
@@ -95,7 +117,7 @@
 /* common styles end */
 
 .section-rgt .card-google{
-    margin-left: 200px;
+    margin-left: 30%;
     margin-bottom: 20px;
 }
 /* section-right end */
