@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 1280px;
+    line-height: 30px;
+    font-family: 'Sora', sans-serif;
+    background-color: #FAFAFF;
+    /* background-color: #52525A; */
+}
+
+:root{
+    --primary-color: #18181B;
+    --secondary-color: #52525A;
+    --card-background: #FFFFFF;
+}
+
+.banner-section{
+    width: 95%;
+    display: flex;
+    margin: 32px 20px;
+}
+
+/* section-lft start */
+.section-lft .icon img{
+    background-color: #F5C044; 
+    display: block;
+    background-color: rgba(245, 192, 68, .5);
+    border-radius: 10px;
+}
+
+/* heading section start */
+.banner-section .section-lft{
+    width: 50%;
+}
+.section-lft .heading-section h1{
+    font-size: 2.25rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+.section-lft .heading-section p{
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+    margin-bottom: 40px;
+}
+/* heading section end */
+/* list-items start */
+.section-lft .list-items .list li{
+    font-size: 0.875rem;
+    display: flex;
+    color: var(--secondary-color);
+}
+/* list-items end */
+/* section-lft end */
+
+/* section-right start */
+/* common styles stared */
+.section-rgt{
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+.banner-section .section-rgt .card{
+    /* background-color: var(--card-background); */
+    width: 50%;
+    padding: 25px;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+}
+.banner-section .section-rgt *{
+    background-color: var(--card-background);
+}
+.section-rgt .card .image-container{
+    display: flex;
+    /* border: 2px solid tomato; */
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.section-rgt .card .image-container .google-img{
+    width: 25%;
+}
+.section-rgt .card .image-container .google-img img{
+    width: 100%;
+    /* border: 2px solid blue; */
+    vertical-align: middle;
+}
+#star{
+    display: flex;
+    width: 50%;
+}
+.section-rgt p{
+    font-size: 1rem;
+}
+/* common styles end */
+
+.section-rgt .card-google{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+/* section-right end */
